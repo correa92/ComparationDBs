@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Entornos
+.env
+.env.*  # Por si usás .env.dev, .env.test, etc.
+
+# Archivos de Excel
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.csv
+
+# Archivos temporales comunes
+*.log
+*.tmp
+*.swp
+
+# Salida de paquetes o builds (opcional)
+dist/
+build/
