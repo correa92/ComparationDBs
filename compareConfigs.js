@@ -76,8 +76,14 @@ function compareConfigs(prodMap, testMap) {
         prod_value: prodValue,
         test_value: testValue,
       });
-    }
-  }
+    } else{
+      diferencias.push({
+                name: key,
+        issue: 'Sin cambios',
+        prod_value: prodValue,
+        test_value: testValue,
+    })
+    }}
 
   return diferencias;
 }
